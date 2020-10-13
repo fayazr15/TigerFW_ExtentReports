@@ -84,7 +84,7 @@ public class CreateContactWithOrganizationTest extends ConfigFiles
 		/* Step 12: Switch back driver focus to Contacts window */
 		d.SwitchToSpecificWindow(driver,data.FetchDataFromExcelFile("Contacts", 10, 3));
 		/* Step 13: Click on Save Button */
-//		CreatingNewOrganization.ClickOnSaveBtn();
+		CreatingNewOrganization.ClickOnSaveBtn();
 		/* Step 14: Validate Contact should be created */
 		Assert.assertTrue(ContactInformation.getContactSuccMsg().contains(data.FetchDataFromExcelFile("Contacts", 11, 4)));
 		

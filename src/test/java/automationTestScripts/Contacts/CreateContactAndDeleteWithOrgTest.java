@@ -133,7 +133,7 @@ public class CreateContactAndDeleteWithOrgTest extends ConfigFiles
 		/* Step 37: wait until Visibility of Element  */
 		d.waitForElemnetVsibility(driver, Oganisations.getInventoryCount());
 		/* Step 38: Select CheckBox of created Organization*/
-//		Oganisations.ClickcheckBox();
+		Oganisations.ClickcheckBox();
 		/* Step 39: Click on Delete Button*/
 		Oganisations.ClickDeleteBtn();
 		/* Step 40: Handle Alert as Accept*/

@@ -61,7 +61,7 @@ public class CreateAndDeleteOrganizationTest extends ConfigFiles
 		/* Step 15: Select CheckBox of created Organization*/
 		Oganisations.ClickcheckBox();
 		/* Step 16: Click on Delete Button*/
-//		Oganisations.ClickDeleteBtn();
+		Oganisations.ClickDeleteBtn();
 		/* Step 17: Handle Alert as Accept*/
 		d.alertOk(driver);
 		/* Step 18: Clear search text box */
