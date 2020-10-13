@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16922" started-at="2020-10-13T04:02:26Z" finished-at="2020-10-13T04:02:42Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="16922" started-at="2020-10-13T04:02:26Z" finished-at="2020-10-13T04:02:42Z">
+      <class name="automationTestScripts.Organizations.CreatOrganisationTest">
+        <test-method status="PASS" signature="extentReportGenerator()[pri:0, instance:automationTestScripts.Organizations.CreatOrganisationTest@1ad282e0]" name="extentReportGenerator" is-config="true" duration-ms="16" started-at="2020-10-13T04:02:26Z" finished-at="2020-10-13T04:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportGenerator -->
+        <test-method status="PASS" signature="LaunchBroser()[pri:0, instance:automationTestScripts.Organizations.CreatOrganisationTest@1ad282e0]" name="LaunchBroser" is-config="true" duration-ms="4946" started-at="2020-10-13T04:02:26Z" finished-at="2020-10-13T04:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBroser -->
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:automationTestScripts.Organizations.CreatOrganisationTest@1ad282e0]" name="loginApplication" is-config="true" duration-ms="2512" started-at="2020-10-13T04:02:31Z" finished-at="2020-10-13T04:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="CreateOrganisation()[pri:0, instance:automationTestScripts.Organizations.CreatOrganisationTest@1ad282e0]" name="CreateOrganisation" duration-ms="8822" started-at="2020-10-13T04:02:33Z" finished-at="2020-10-13T04:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganisation -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:automationTestScripts.Organizations.CreatOrganisationTest@1ad282e0]" name="CloseBrowser" is-config="true" duration-ms="617" started-at="2020-10-13T04:02:42Z" finished-at="2020-10-13T04:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- automationTestScripts.Organizations.CreatOrganisationTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

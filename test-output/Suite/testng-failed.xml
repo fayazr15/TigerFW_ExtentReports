@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="commonLibraries.SchedulerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="automationTestScripts.Organizations.CreateAndDeleteOrganizationTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="extentReportGenerator"/>
+          <include name="loginApplication"/>
+          <include name="validateOrgAfterDelete"/>
+          <include name="LaunchBroser"/>
+        </methods>
+      </class> <!-- automationTestScripts.Organizations.CreateAndDeleteOrganizationTest -->
+      <class name="automationTestScripts.Contacts.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="extentReportGenerator"/>
+          <include name="loginApplication"/>
+          <include name="CreateNewContact"/>
+          <include name="LaunchBroser"/>
+        </methods>
+      </class> <!-- automationTestScripts.Contacts.CreateContactWithOrganizationTest -->
+      <class name="automationTestScripts.Contacts.CreateContactAndDeleteWithOrgTest">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="CreateContactWithOrgAndDeleteWithOrg"/>
+          <include name="extentReportGenerator"/>
+          <include name="loginApplication"/>
+          <include name="LaunchBroser"/>
+        </methods>
+      </class> <!-- automationTestScripts.Contacts.CreateContactAndDeleteWithOrgTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->
